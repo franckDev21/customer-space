@@ -9,7 +9,7 @@ function AvisClient() {
     const questionId = JSON.parse(window.localStorage.getItem("questionId"));
 	const [question1Id, setQuestionId] = useState("");
     const [data, setQuestionList] = useState([]);
-    const [reponse1, setReponse1] = useState("");
+    const [reponse1, setReponse1] = useState(""); 
     const [reponse2, setReponse2] = useState("");
     const [reponse3, setReponse3] = useState("");
     const [reponse4, setReponse4] = useState("");
